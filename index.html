@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio | Beranda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1f1e1e;
+            margin: 0;
+        }
+
+        header {
+           background-color: #710C04;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+           background-color: #D4AF37;
+            padding: 2px;
+            text-align: center;
+        }
+
+        nav a {
+            color: rgb(2, 2, 2);
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+           width: 90%;
+            margin: 20px auto;
+            background-color: rgb(116, 116, 116);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* GRID UTAMA */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+
+        /* TEKS KIRI */
+        .content-text h2 {
+            color: #67b9da;
+            
+        }
+
+        .content-text p {
+            text-align: justify;
+        }
+
+        /* GRID GAMBAR KANAN */
+    .content-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px 300px;
+        gap: 0;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .content-gallery img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+        footer {
+             background-color: #710C04;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        /* RESPONSIVE (HP) */
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>PORTOFOLIO HAFIZH RAIHAN H</h1>
+    <p>Karya Nyata dari Proses Belajar</p>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="video.html">Video</a>
+    <a href="project.html">My Project</a>
+</nav>
+
+<div class="container">
+
+    <div class="content-grid">
+
+        <!-- BAGIAN KIRI: TEKS (WAJIB DIISI SENDIRI) -->
+        <div class="content-text">
+
+            <h2>Selamat Datang di Website Portofolio</h2>
+            <p>
+                Website ini merupakan media pendukung untuk menampilkan hasil
+                Ujian Praktik Terintegrasi. Konten utama pada website ini adalah
+                video broadcasting pembelajaran yang berisi penyampaian teks
+                argumentasi secara lisan.
+            </p>
+
+            <h2>Tentang Website Ini</h2>
+            <p>
+                Website ini merupakan website portofolio digital yang berisi
+                hasil karya dan pembelajaran saya selama mengikuti Ujian Praktik
+                Terintegrasi.
+            </p>
+
+            <h2>Tujuan Pembuatan Website</h2>
+            <p>
+                Tujuan pembuatan website ini adalah untuk menampilkan karya
+                yang telah saya buat serta melatih kemampuan saya dalam
+                membuat website sederhana menggunakan HTML.
+            </p>
+
+            <h2>Topik Argumentasi dan Alasan Pemilihan</h2>
+            <p>
+                <i>
+                topik yang saya bahas adalah "mengasah kemampuan berwirausaha melalui IC" saya memilih topik ini karena topik ini menghighlight seberapa bermanfaat dan menarik kegiatan IC
+                </i>
+            </p>
+
+            <h2>Harapan dari Video</h2>
+            <p>
+                <i>
+                Semoga penonton dapat lebih memahami pekerjaan berwirausaha dan terinspirasi untuk mencoba berwirausaha, setidaknya bermagang terlebih dahulu.
+                </i>
+            </p>
+
+            <h2>Refleksi, Kesan, dan Pesan</h2>
+            <p>
+                <i>
+               Hal yang telah saya pelajari selama uprak ini adalah cara mengelola waktu dengan baik dan efisien serta cara tetap tenang menghadapi stres. Kesan dari saya adalah, kelas 9 ini kalo dikategoriin jadi film, maka filmnya adalah genre thriller. Pesan saya adalah, jangan terlalu ekstrem thrillernya pls. 
+                </i>
+            </p>
+
+        </div>
+
+        <!-- BAGIAN KANAN: GRID GAMBAR (BEBAS KREATIF) -->
+        <div class="content-gallery">
+            <img src="apis 1.jpg" alt="Gambar Bebas 1">
+            <img src="https://i.pinimg.com/1200x/9e/d8/ef/9ed8ef324b841d82125b3b88227ed6e8.jpg" alt="Gambar Bebas 2">
+            <img src="https://i.pinimg.com/736x/af/85/41/af85412031efee8608a5ed2537055e3c.jpg" alt="Gambar Bebas 3">
+            <img src="apis 2.jpg" alt="Gambar Bebas 4">
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>Ujian Praktik Terintegrasi | SMPIT Al Haraki | Hafizh.raihan@alharaki.sch.id </p>
+</footer>
+
+</body>
+</html>
